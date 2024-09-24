@@ -24,14 +24,13 @@
    justify-content: center; /* Center items horizontally */
    align-items: center; /* Center items vertically */          
    margin-left: 10px;
-   margin-right: 10px;
  }
  
  .flag_image { 
    width: 15px;                /* Adjust the image size */
-   height: 30px;
+   height: 25px;
    margin-left: 10px; 
-
+   margin-bottom:5px;
  }
  
  .flag_text {
@@ -44,7 +43,7 @@
  }
  
  .marked_item {
-     border-bottom: 4px solid #818181; /* Apply a border only at the bottom */
+     border-bottom: 4px solid #FFFFFF; /* Apply a border only at the bottom */
      background: rgba(0, 0, 0, 0.25);
 
  }
