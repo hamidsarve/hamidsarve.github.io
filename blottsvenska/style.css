@@ -1,8 +1,5 @@
- a {
-   text-decoration: none;
-   color: inherit;
-   font-weight: bold;
- }
+
+
      
  .flag_container {
    display: flex;
@@ -42,6 +39,7 @@
    color:white;
    font-weight:400;
  }
+ 
  
  .marked_item {
      border-bottom: 3px solid #FFFFFF; /* Apply a border only at the bottom */
@@ -118,3 +116,16 @@
          margin-top:10px;
      }
  }
+ 
+ a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+  
+  a:hover  a.flag_text:hover {
+     color: red;
+     text-decoration: none;
+
+ }
+ 
