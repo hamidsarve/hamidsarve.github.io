@@ -1,5 +1,4 @@
 
-
      
  .flag_container {
    display: flex;
@@ -123,9 +122,10 @@
     font-weight: bold;
   }
   
-  a:hover  a.flag_text:hover {
+  a:hover, a.flag_text:hover {
      color: red;
      text-decoration: none;
 
  }
+
  
