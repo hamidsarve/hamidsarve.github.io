@@ -26,14 +26,13 @@
    display: flex;
    justify-content: center; /* Center items horizontally */
    align-items: center; /* Center items vertically */          
-   margin-left: 10px;
    margin-right: 10px;
+   margin-left: 10px;
  }
  
  .flag_image { 
    width: 8px;                /* Adjust the image size */
    height: 20px;
-   margin-left: 10px; 
    margin-bottom:5px;
    margin-top:2px;
  }
@@ -45,6 +44,7 @@
    margin-right: 10px;
    color:white;
    font-weight:400;
+
  }
  
  
