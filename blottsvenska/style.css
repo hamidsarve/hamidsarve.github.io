@@ -171,10 +171,12 @@
 }
 
 .hamidsarve {
-    width:100;
+    width:100px;
     display: none;
-    letter-spacing: 0.1em; 
-
+    letter-spacing: 0.1em;
+    line-height:0.85;
+    font-family:Noto Sans Display;
+    color:white;
   }
 
   @media (max-width: 1200px) {
