@@ -12,7 +12,8 @@
    z-index:1200;
    padding-bottom: 5px; /* Add bottom padding */
    padding-top: 5px; /* Add bottom padding */
-   
+   flex-wrap: wrap;
+
  } 
 
  @media (max-width: 1200px) {
@@ -26,8 +27,8 @@
    display: flex;
    justify-content: center; /* Center items horizontally */
    align-items: center; /* Center items vertically */          
-   margin-right: 10px;
    margin-left: 6px;
+   width: 120px;
  }
  
  .flag_image { 
@@ -58,7 +59,11 @@
  }
  
  .remaining {
-    width: 100%;
+    flex-grow: 1; /* Grow to fill remaining space */
+    justify-content: flex-end;
+    display:flex;
+    margin-right:10px;
+    margin-left:10px;
 }
          
  .habiben{
@@ -185,7 +190,6 @@
     color:white;
     font-size: 12px;
     text-align: right; /* Add this line to right align the text */
-    justify-content: flex-end;
 
   }
 
