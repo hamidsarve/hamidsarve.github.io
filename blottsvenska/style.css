@@ -160,10 +160,12 @@
     right: 0;
     padding: 10px;
     z-index:1500;
+    display: none;
+
   }
 
   @media (max-width: 1200px) {
     .modalWindow {
-        display: none;
+        display: block;
     }
 }
