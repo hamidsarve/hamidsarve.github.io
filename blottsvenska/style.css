@@ -167,7 +167,7 @@
 
   .modalWindow {
     position: absolute;
-    bottom: 77px;
+    bottom: 80px;
     right: 0;
     padding: 10px;
     z-index:1500;
