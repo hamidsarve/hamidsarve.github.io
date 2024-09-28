@@ -82,7 +82,11 @@
      display: flex;             /* Flexbox to align left and right sections */
 
  }
-
+ @media (max-width: 1200px) {
+    .container_{
+        height:100px;
+    }
+}
  
  .name_title{
      font-size:24px;
@@ -128,4 +132,25 @@
 
  }
 
- 
+ /* The Close Button */
+.close {
+    width:36px;
+    height:36px;
+    opacity: 1.0;
+
+  }
+  
+  .close:hover {
+  }
+  
+  .close:focus {
+    cursor: pointer;
+  }
+
+  .modalWindow {
+    position: absolute;
+    bottom: 72px;
+    right: 0;
+    padding: 10px;
+    z-index:1500;
+  }
