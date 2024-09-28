@@ -28,7 +28,6 @@
    justify-content: center; /* Center items horizontally */
    align-items: center; /* Center items vertically */          
    margin-left: 6px;
-   width: 120px;
  }
  
  .flag_image { 
@@ -62,7 +61,7 @@
     flex-grow: 1; /* Grow to fill remaining space */
     justify-content: flex-end;
     display:flex;
-    margin-right:10px;
+    margin-right:55px;
     margin-left:10px;
 }
          
