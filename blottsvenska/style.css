@@ -20,14 +20,7 @@
 
 
  } 
- @media (max-width: 1000px) {
-    .flag_container{
-        width:100%;
-        flex-direction: row;
-    }
-
  
-}
 
  
  .flag_item {
@@ -37,6 +30,17 @@
  }
 
  
+ @media (max-width: 1000px) {
+    .flag_container{
+        width:100%;
+        flex-direction: row;
+    }
+    .flag_item {
+        flex-shrink: 1;         
+      }
+ 
+}
+
  .flag_image { 
    width: 8px;                /* Adjust the image size */
    height: 18px;
@@ -193,7 +197,7 @@
 }
 
 .hamidsarve {
-    width:80px;
+    width:70px;
     display: none;
     letter-spacing: 0.15em;
     line-height:1.0;
@@ -206,16 +210,19 @@
 
 .remaining {
    
+    flex-grow: 1;
     display:none;
-    /*margin-right:55px;*/
-    margin-left:10px;
- 
+
+    padding-right:10px;
+    justify-content: flex-end;
+    background-color;red;
+
 }
   @media (max-width: 1000px) {
-    .hamidsarve {
-        display: none;
+    .remaining {
+        display: flex;
     }
     .hamidsarve {
-        display: none;
+        display: block;
     }
 }
