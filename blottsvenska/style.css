@@ -1,26 +1,30 @@
 
-     
+.upper_bar{
+    width:100px;
+    position: absolute;
+    top: 13px;
+    height:44px;
+}   
+
  .flag_container {
    display: flex;
    align-items: center;
    position: absolute;
    left: 25px;
-   top: 13px;
-   height:44px;
    margin-left: 20px;
    background: rgba(0, 0, 0, 0.65);
    z-index:1200;
    flex-wrap: no-wrap;
-   width: 270px;
+   width: 280px;
    justify-content: center;
 
  } 
-
  @media (max-width: 1000px) {
     .flag_container{
         width:100%;
         flex-direction: row;
     }
+
  
 }
 
@@ -31,7 +35,7 @@
    align-items: center; /* Center items vertically */          
    margin-left: 6px;
    margin-right: 6px;
-   width:120px;
+   width:130px;
  }
  
  .flag_image { 
