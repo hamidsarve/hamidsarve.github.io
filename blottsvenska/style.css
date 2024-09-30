@@ -279,3 +279,14 @@
    align-items: center; /* Center items vertically */     
 
 }
+
+ .welcome_text_div {
+   font-size: 18px;
+   letter-spacing: 0.1em; 
+   font-family:Noto Sans Display;
+   color:white;
+   font-weight:400;
+   margin-left: 3px;
+   margin-right: 10px;
+
+ }
