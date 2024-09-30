@@ -273,3 +273,9 @@
    margin-right: 10px;
 
  }
+
+ .centered_index{
+   display:flex;
+   align-items: center; /* Center items vertically */     
+
+}
