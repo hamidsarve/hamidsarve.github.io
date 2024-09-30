@@ -18,8 +18,6 @@
    height:100%;
    justify-content: space-between;
    margin: 0 auto;
-
-
  } 
  
 
@@ -234,3 +232,18 @@
   transform: translate(-50%, -50%);
   z-index: 9999;
 }
+
+ .flag_container_index {
+   display: flex;
+   align-items: center;
+   background: rgba(0, 0, 0, 0.65);
+   justify-content: space-between;
+   margin: 0 auto;
+ } 
+ 
+
+ .flag_item_index {
+   display:flex;
+   justify-content: center; /* Center items horizontally */
+   align-items: center; /* Center items vertically */          
+ }
