@@ -245,7 +245,7 @@
  .flag_item_index {
    display:flex;
    align-items: center; /* Center items vertically */     
-   width: 200px; /* Adjust this value as needed */
+   width: 250px; /* Adjust this value as needed */
    height: 100%; /* Add this line */     
    flex-direction: row; /* Ensure horizontal layout */
   justify-content: center; /* Center items horizontally */
@@ -254,17 +254,17 @@
 
 
  .flag_image_index { 
-   width: 8px;                /* Adjust the image size */
-   height: 18px;
+   width: 12px;                /* Adjust the image size */
+   height: 22px;
    margin-bottom:5px;
    margin-top: 2px;
    margin-left: 15px;
-   margin-right: 3px;
+   margin-right: 7px;
 
  }
  
  .flag_text_index {
-   font-size: 14px;
+   font-size: 18px;
    letter-spacing: 0.1em; 
    font-family:Noto Sans Display;
    color:white;
