@@ -235,15 +235,39 @@
 
  .flag_container_index {
    display: flex;
-   align-items: center;
+   align-items: center; /* Center items vertically */     
    background: rgba(0, 0, 0, 0.65);
-   justify-content: space-between;
-   margin: 0 auto;
+   justify-content: center; /* Center items horizontally */
+   height: 100%; /* Add this line */
  } 
  
 
  .flag_item_index {
    display:flex;
    justify-content: center; /* Center items horizontally */
-   align-items: center; /* Center items vertically */          
+   align-items: center; /* Center items vertically */     
+   width: 200px; /* Adjust this value as needed */
+   height: 100%; /* Add this line */     
+ }
+
+
+ .flag_image_index { 
+   width: 8px;                /* Adjust the image size */
+   height: 18px;
+   margin-bottom:5px;
+   margin-top: 2px;
+   margin-left: 15px;
+   margin-right: 3px;
+
+ }
+ 
+ .flag_text_index {
+   font-size: 14px;
+   letter-spacing: 0.1em; 
+   font-family:Noto Sans Display;
+   color:white;
+   font-weight:400;
+   margin-left: 3px;
+   margin-right: 10px;
+
  }
