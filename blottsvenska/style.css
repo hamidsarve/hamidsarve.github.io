@@ -275,7 +275,6 @@
  .centered_index{
    display:flex;
    align-items: center; /* Center items vertically */     
-
 }
 
  .welcome_text_div {
@@ -287,5 +286,5 @@
    margin-left: 3px;
    margin-right: 10px;
    margin-bottom:20px;
-
+   width:800px;    
  }
