@@ -231,6 +231,7 @@
  } 
  
 
+
  .flag_item_index {
    display:flex;
    align-items: center; /* Center items vertically */     
@@ -247,8 +248,17 @@
 
    margin-left: 15px;
    margin-right: 7px;
-
  }
+ @media (max-width: 1200px) {
+    .flag_image_index { 
+        width: 28px;                /* Adjust the image size */
+        height: 36px;
+     
+        margin-left: 15px;
+        margin-right: 7px;
+      }
+ }
+
  
  .flag_text_index {
    font-size: 18px;
@@ -260,7 +270,11 @@
    margin-right: 10px;
 
  }
-
+ @media (max-width: 1200px) {
+    .flag_text_index {
+        font-size: 24px;   
+      }
+ }  
  .centered_index{
    display:flex;
    align-items: center; /* Center items vertically */     
@@ -278,12 +292,15 @@
    margin-left: 3px;
    margin-right: 10px;
    margin-bottom:20px;
-   width:800px;    
    text-align: center;
    justify-content: center;
    display: flex;
  }
-
+ @media (max-width: 1200px) {
+    .welcome_text_div {
+        font-size: 32px;   
+      }
+ }  
 
   
  a {
@@ -301,9 +318,14 @@
 
 }
 
-  a:hover, a.flag_text:hover, centered_index:hover{
+.flag_text_index:hover{
+    color: #f5e66e;
+}
+ a:hover, a.flag_text:hover{
      color: #f5e66e;
      text-decoration: none;
 
  }
+
+ body { background-color: black !important; }
 
