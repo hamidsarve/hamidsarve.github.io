@@ -147,21 +147,6 @@
          margin-top:10px;
      }
  }
- 
- a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: bold;
-    font-family:Noto Sans Display;
-    color: white; 
-
-  }
-  
-  a:hover, a.flag_text:hover {
-     color: red;
-     text-decoration: none;
-
- }
 
  /* The Close Button */
 .close {
@@ -231,6 +216,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9999;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+
 }
 
  .flag_container_index {
@@ -254,8 +244,7 @@
  .flag_image_index { 
    width: 12px;                /* Adjust the image size */
    height: 22px;
-   margin-bottom:5px;
-   margin-top: 2px;
+
    margin-left: 15px;
    margin-right: 7px;
 
@@ -275,7 +264,10 @@
  .centered_index{
    display:flex;
    align-items: center; /* Center items vertically */     
+
 }
+
+ 
 
  .welcome_text_div {
    font-size: 22px;
@@ -287,4 +279,31 @@
    margin-right: 10px;
    margin-bottom:20px;
    width:800px;    
+   text-align: center;
+   justify-content: center;
+   display: flex;
  }
+
+
+  
+ a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-family:Noto Sans Display;
+    color: white; 
+
+  }
+  
+.centered_index:hover{
+    color: #f5e66e;
+    text-decoration: none;
+
+}
+
+  a:hover, a.flag_text:hover, centered_index:hover{
+     color: #f5e66e;
+     text-decoration: none;
+
+ }
+
