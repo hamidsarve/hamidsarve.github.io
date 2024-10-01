@@ -251,7 +251,7 @@
  }
  @media (max-width: 1200px) {
     .flag_image_index { 
-        width: 28px;                /* Adjust the image size */
+        width: 24px;                /* Adjust the image size */
         height: 36px;
      
         margin-left: 15px;
